@@ -1,7 +1,7 @@
 ---
 templateKey: index-page
 title: Total Control Sdn. Bhd.
-image: /img/chuttersnap-ifmqouokaoa-unsplash.jpg
+image: /img/hero.jpg
 heading: Trust, Care, Service, Breakthrough
 subheading: "TCSB specializes in industrial cables, oil & gas type cables, and telecommunication 
 cables, together with accessories."
@@ -11,7 +11,7 @@ about:
 RM 300,000.00. It is always our main objective to ensure timely response to our customers 
 requirement as we never trust procrastination."
   image:
-    image: /img/leon-tho1_oukbg0-unsplash.jpg
+    image: /img/office-location-image.png
     alt: people working in agency
   button:
     url: /about

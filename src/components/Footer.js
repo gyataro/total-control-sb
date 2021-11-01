@@ -37,22 +37,10 @@ const Footer = () => {
                   About
                 </h3>
                 <Link
-                  to="/"
+                  to="/about"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                 >
                   Company
-                </Link>
-                <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Community
-                </Link>
-                <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Careers
                 </Link>
               </div>
 
@@ -61,16 +49,10 @@ const Footer = () => {
                   Projects
                 </h3>
                 <Link
-                  to="/"
+                  to="./projects"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                 >
                   Project list
-                </Link>
-                <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Customer list
                 </Link>
               </div>
 
@@ -79,28 +61,22 @@ const Footer = () => {
                   Products
                 </h3>
                 <a
-                  href="https://www.gatsbyjs.com/"
+                  href="./products#Power-Cables"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  rel="noreferrer"
-                  target="_blank"
                 >
                   Cables
                 </a>
                 <a
-                  href="https://www.netlifycms.org/"
+                  href="./products#Accessories"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Connectors
-                </a>
-                <a
-                  href="https://tailwindcss.com/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                  rel="noreferrer"
-                  target="_blank"
                 >
                   Accessories
+                </a>
+                <a
+                  href="./products#Fibers-&amp;-Accessories"
+                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
+                >
+                  Fibers &amp; Accessories
                 </a>
               </div>
 

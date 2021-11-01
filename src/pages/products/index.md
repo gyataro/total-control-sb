@@ -1,36 +1,60 @@
 ---
-templateKey: about-page
-title: About
-heading: About us
-subheading: Our vision, mission and background
-team:
-  - name: Courtney Henry
-    image: /img/joanna-nix-walkup-p7zgmc33s0u-unsplash.jpg
-    title: Founder / CEO
-  - name: Michael Foster
-    title: Architect
-    image: /img/rui-silvestre-hamjpesmede-unsplash.jpg
-  - name: Leslie Alexander
-    title: Landscape Gardener
-    image: /img/brooke-cagle-norsyxmhgpi-unsplash-1-.jpg
-  - name: Dries Vincent
-    title: Manager, Business Relations
-    image: /img/bruce-mars-8yg31xn4dsw-unsplash-1-.jpg
+templateKey: product-page
+title: Products
+heading: Our products
+subheading: List of products
 ---
-### Vision
+## Summary of Products
 
-To embed comfort and assurance into all customers requirement. 
+- Power Cables Up to 1kV to 132kV
+- Multicore Cables
+- Instrumentation Cables
+- Fire Resistant & Flame-Retardant Cables
+- Solar Cables & Accessories
+- Thermocouple Extension Cables
+- Shipboard & Marine Cables
+- Data Communication Cables
+- Lightings Ex and Non Ex
+- Leaky Cables & Connectors
+- Fiber Optic Cables & Accessories
+- Cable Glands & Junction Boxes
+- Joints, Termination Kits and Accessories
+- Cable Tray, Ladders and Support Systems
 
-![Rooftop gardens](/img/chuttersnap-nxjyzlbnyuq-unsplash.jpg "Rooftop gardens")
+## Power Cables
 
-### Mission
+### High, Medium Voltage Cables
 
-To provide our customers with the products and services and eventually grow together with customers.
+![HV-MV-Cables](../../img/product-image-1.png)
 
-### Background
+### Low Voltage Cables
 
-TCSB made our humble inception in September 2018 and has an initial paid up capital of RM 300,000.00. It is always our main objective to ensure timely response to our customers requirement as we never trust procrastination.
+![LV-Cables](../../img/product-image-2.png)
 
-In TCSB we work very closely with our reputable principals that we evaluated through our experience. We ensure the quality of our service and the products we supply meets the customer’s requirements and standards. We procure, stock, distribute and supply a comprehensive range of certified quality products conforming to local and international standards for telecommunication, industrial and hazardous area applications. 
+### Fire Resistant Cables
 
-TCSB specializes into Industrial cables, Oil & Gas type cables, and telecommunication cables, together with accessories. With a partner (ECO DIGITAL COMMUNICATION SDN. BHD), TCSB offered services into ICT Network Infrastructures, ELV Engineering Services, Smart Surveillance, Enterprise Wifi, Smart Meeting Room, Digital Signage, Fiber Optic Solutions and lastly, IOT as well. 
+![Fire-Resistant-Cables](../../img/product-image-3.png)
+
+### Instrumentation Cables
+
+![Instrumentation-Cables](../../img/product-image-4.png)
+
+### Solar Cables & Accessories
+
+![Solar-Cables-&-Accessories](../../img/product-image-5.png)
+
+---
+
+## Accessories
+
+![Accessories](../../img/product-image-6.png)
+
+---
+
+## Fibers & Accessories
+
+![Fibers-&-Accessories-1](../../img/product-image-7.png)
+
+![Fibers-&-Accessories-2](../../img/product-image-8.png)
+
+![Fibers-&-Accessories-3](../../img/product-image-9.png)

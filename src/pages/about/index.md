@@ -3,25 +3,10 @@ templateKey: about-page
 title: About
 heading: About us
 subheading: Our vision, mission and background
-team:
-  - name: Courtney Henry
-    image: /img/joanna-nix-walkup-p7zgmc33s0u-unsplash.jpg
-    title: Founder / CEO
-  - name: Michael Foster
-    title: Architect
-    image: /img/rui-silvestre-hamjpesmede-unsplash.jpg
-  - name: Leslie Alexander
-    title: Landscape Gardener
-    image: /img/brooke-cagle-norsyxmhgpi-unsplash-1-.jpg
-  - name: Dries Vincent
-    title: Manager, Business Relations
-    image: /img/bruce-mars-8yg31xn4dsw-unsplash-1-.jpg
 ---
 ### Vision
 
 To embed comfort and assurance into all customers requirement. 
-
-![Rooftop gardens](/img/chuttersnap-nxjyzlbnyuq-unsplash.jpg "Rooftop gardens")
 
 ### Mission
 

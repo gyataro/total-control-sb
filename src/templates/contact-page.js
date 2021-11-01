@@ -12,7 +12,6 @@ function ContactPage({ data }) {
       <ContactPageTemplate
         heading={fm.heading}
         subheading={fm.subheading}
-        contactform={fm.contactform}
         office={fm.office}
       />
     </>
@@ -37,15 +36,6 @@ export const contactPageQuery = graphql`
           phone {
             html
           }
-          image {
-            childImageSharp {
-              gatsbyImageData(width: 640, placeholder: BLURRED)
-            }
-          }
-        }
-        contactform {
-          heading
-          description
           image {
             childImageSharp {
               gatsbyImageData(width: 640, placeholder: BLURRED)

@@ -96,22 +96,6 @@ const Navbar = ({ className }) => {
             >
               Home
             </ExactNavLink>
-            <PartialNavLink
-              to="/projects"
-              onClick={() => {
-                setMenuOpen(false)
-              }}
-            >
-              Projects
-            </PartialNavLink>
-            <ExactNavLink
-              to="/products"
-              onClick={() => {
-                setMenuOpen(false)
-              }}
-            >
-              Products
-            </ExactNavLink>
             <ExactNavLink
               to="/about"
               onClick={() => {
@@ -120,6 +104,30 @@ const Navbar = ({ className }) => {
             >
               About
             </ExactNavLink>
+            <ExactNavLink
+              to="/contact"
+              onClick={() => {
+                setMenuOpen(false)
+              }}
+            >
+              Contact
+            </ExactNavLink>
+            <ExactNavLink
+              to="/products"
+              onClick={() => {
+                setMenuOpen(false)
+              }}
+            >
+              Products
+            </ExactNavLink>
+            <PartialNavLink
+              to="/projects"
+              onClick={() => {
+                setMenuOpen(false)
+              }}
+            >
+              Projects
+            </PartialNavLink>
           </div>
         </div>
       </div>
