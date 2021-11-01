@@ -1,14 +1,21 @@
 const siteUrl =
-  process.env.URL || `https://objective-thompson-fe2703.netlify.app`
+  process.env.URL || `https://agitated-brattain-089b45.netlify.app`
 
 module.exports = {
   siteMetadata: {
-    title: "UrbanGarden",
+    title: "Total Control Sdn Bhd",
     description:
-      "Transforming and enriching our urban environments with green living spaces",
-    siteUrl: "https://objective-thompson-fe2703.netlify.app",
+      "TCSB specializes into industrial cables, oil & gas type cables, and telecommunication cables, together with accessories. TCSB offers services in ICT Network Infrastructures, ELV Engineering Services, Smart Surveillance, Enterprise Wifi, Smart Meeting Room, Digital Signage, Fiber Optic Solutions and lastly, IOT",
+    siteUrl: "https://agitated-brattain-089b45.netlify.app",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-pnpm`,
+      options: {
+        projectPath: `${__dirname}`, // use parent directory as project root
+        strict: true
+      }
+    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
@@ -37,9 +44,15 @@ module.exports = {
         component: require.resolve(`./src/components/Layout`),
       },
     },
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
+    {
+      resolve: `gatsby-plugin-netlify-cms-paths`,
+      options: {
+        cmsConfig: `/static/admin/config.yml`,
+      },
+    },
     "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+    "gatsby-plugin-image",
     {
       resolve: "gatsby-transformer-remark",
       options: {

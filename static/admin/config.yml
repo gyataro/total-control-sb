@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: jimmybutton/gatsby-netlifycms-tailwind-starter
+  repo: gyataro/total-control-sb
   branch: main
 
 local_backend: true

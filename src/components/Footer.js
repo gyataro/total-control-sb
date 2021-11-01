@@ -11,23 +11,21 @@ const Footer = () => {
             <div className="px-4 sm:px-6 lg:px-8">
               <Link className="flex items-center gap-1" to="/">
                 <StaticImage
-                  src="../img/urbangarden-icon.png"
-                  alt="UrbanGarden icon"
-                  layout="fixed"
-                  width={40}
-                  height={40}
+                  src="../img/totalcontrol-logo.png"
+                  alt="Logo"
+                  className="w-40 h-12 sm:w-40 sm:h-12"
+                  layout="fullWidth"
+                  loading="eager"
                   backgroundColor="transparent"
                   placeholder="blurred"
                 />
-                <div className="text-xl font-bold tracking-wide">
-                  <span className="text-gray-800 font-semibold">Urban</span>
-                  <span className="text-green-700">Garden</span>
-                </div>
               </Link>
 
               <p className="max-w-md mt-2 text-gray-600 dark:text-gray-400">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Reiciendis, nisi! Id.
+                No. 11-23, Avenue Crest,<br/>
+                Jalan Jubli Perak 22/1,<br/>
+                Seksyen 22,<br/>
+                40300 Shah Alam, Selangor.
               </p>
             </div>
           </div>
@@ -60,25 +58,19 @@ const Footer = () => {
 
               <div>
                 <h3 className="text-gray-700 uppercase dark:text-white">
-                  Blog
+                  Projects
                 </h3>
                 <Link
                   to="/"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                 >
-                  Tec
+                  Project list
                 </Link>
                 <Link
                   to="/"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                 >
-                  Music
-                </Link>
-                <Link
-                  to="/"
-                  className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
-                >
-                  Videos
+                  Customer list
                 </Link>
               </div>
 
@@ -92,7 +84,7 @@ const Footer = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Gatsby
+                  Cables
                 </a>
                 <a
                   href="https://www.netlifycms.org/"
@@ -100,7 +92,7 @@ const Footer = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Netlify CMS
+                  Connectors
                 </a>
                 <a
                   href="https://tailwindcss.com/"
@@ -108,7 +100,7 @@ const Footer = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Tailwind CSS
+                  Accessories
                 </a>
               </div>
 
@@ -117,10 +109,10 @@ const Footer = () => {
                   Contact
                 </h3>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  +1 526 654 8965
+                  Phone: +603-5031-0271
                 </span>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  example@email.com
+                  Fax: +603-5031-0272
                 </span>
               </div>
             </div>
@@ -131,7 +123,7 @@ const Footer = () => {
 
         <div>
           <p className="text-center text-gray-800 dark:text-white">
-            © Brand 2020 - All rights reserved
+            © Total Control Sdn. Bhd. {(new Date().getFullYear())} - All rights reserved
           </p>
         </div>
       </div>
