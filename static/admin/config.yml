@@ -7,6 +7,7 @@ local_backend: true
 
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
 
 collections:
   - name: "projects"
@@ -15,7 +16,7 @@ collections:
     filter: {field: "templateKey", value: "project-page"}
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    summary: "{{title}} {{year}}-{{month}}-{{day}} {{fields.featured}}"
+    summary: "{{title}}"
     fields:
       - {
           label: "Template Key",
@@ -24,8 +25,8 @@ collections:
           default: "project-page",
         }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured", name: "featured", widget: boolean }
+      - { label: "Project Date", name: "date", widget: "string" }
+      - { label: "Featured", name: "featured", widget: boolean, default: false }
       # - {label: "Description", name: "description", widget: "text"}
       # - {label: "Featured Post", name: "featuredpost", widget: "boolean"}
       - {

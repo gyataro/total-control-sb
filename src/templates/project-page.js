@@ -76,7 +76,7 @@ export const projectQuery = graphql`
       excerpt
       frontmatter {
         title
-        date(formatString: "MMMM DD, YYYY")
+        date
         location
         featuredimage {
           alt

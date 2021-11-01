@@ -1,7 +1,7 @@
 ---
 templateKey: project-page
 title: LV - 50MW Solar Power Plant
-date: 2021-07-24T16:01:51.183Z
+date: 2019
 featured: false
 featuredimage:
   alt: LV - 50MW Solar Power Plant, Gambang

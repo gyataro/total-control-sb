@@ -79,7 +79,7 @@ export const indexPageQuery = graphql`
           frontmatter {
             title
             templateKey
-            date(formatString: "MMMM DD, YYYY")
+            date
             location
             featuredimage {
               alt
