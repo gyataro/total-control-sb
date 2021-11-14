@@ -11,7 +11,7 @@ function Card({ image, heading, date, location, url, ...rest }) {
     >
       <Image image={image.image} alt={image.alt} className="rounded-md overflow-hidden" />
       <div className="mt-4 flex items-baseline gap-x-2 justify-between">
-        <span className="uppercase text-green-700 font-bold text-xs tracking-wide">
+        <span className="uppercase text-blue-700 font-bold text-xs tracking-wide">
           {location}
         </span>
         <span className="text-sm text-gray-600">{date}</span>

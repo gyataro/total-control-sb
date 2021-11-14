@@ -67,24 +67,6 @@ const IndexPageTemplate = ({
         </div>
       </Container>
 
-      {/* Featured customers */}
-      <Container>
-        <SectionHeading>Our valued customers</SectionHeading>
-        <div class="mt-8 grid grid-cols-2 sm:grid-cols-6">
-          <StaticImage class="mx-5" src="../img/image-085.jpg" alt="solar-invest" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage class="mx-5" src="../img/image-086.jpg" alt="sarawak-energy" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage class="mx-5 mt-5 sm:mt-0" src="../img/image-087.jpg" alt="dialog" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage class="mx-5 mt-5 sm:mt-0" src="../img/image-088.jpg" alt="sesb" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage class="mx-5 mt-5 sm:mt-0" src="../img/image-093.jpg" alt="westports" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage class="mx-5 mt-5 sm:mt-0" src="../img/image-089.jpg" alt="ge" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage class="mx-5 mt-5 sm:mt-0" src="../img/image-090.jpg" alt="toyo" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage class="mx-5 mt-5 sm:mt-0" src="../img/image-091.jpg" alt="ditrolic-solar" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage class="mx-5 mt-5 sm:mt-0" src="../img/image-092.jpg" alt="jfe" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage src="../img/image-094.jpg" alt="prasarana" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-          <StaticImage class="mx-5 mt-5 sm:mt-0" src="../img/image-095.jpg" alt="carigali-hess" imgStyle={{ objectFit: 'contain' }} loading="eager" placeholder="blurred" />
-        </div>
-      </Container>
-
       {/* About section */}
       <TextImageSplit image={about.image}>
         <SectionHeading>{about.heading}</SectionHeading>
