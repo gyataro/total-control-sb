@@ -22,7 +22,7 @@ office:
       En. Zulhelmi Abd. Rahman\
       (zulhelmi@totalcontrolsb.com)\
       \
-    Phone: +603-5031-0271\
-    Fax: +603-5031-0272
+    Phone: +603-5037-7886\
+    Fax: +603-5037-7889
   image: /img/office-location-image.png
 ---

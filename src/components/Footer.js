@@ -49,7 +49,7 @@ const Footer = () => {
                   Projects
                 </h3>
                 <Link
-                  to="./projects"
+                  to="/projects"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                 >
                   Project list
@@ -61,19 +61,19 @@ const Footer = () => {
                   Products
                 </h3>
                 <a
-                  href="./products#Power-Cables"
+                  href="/products#Power-Cables"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                 >
                   Cables
                 </a>
                 <a
-                  href="./products#Accessories"
+                  href="/products#Accessories"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                 >
                   Accessories
                 </a>
                 <a
-                  href="./products#Fibers-&amp;-Accessories"
+                  href="/products#Fibers-&amp;-Accessories"
                   className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline"
                 >
                   Fibers &amp; Accessories

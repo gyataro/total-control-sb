@@ -5,21 +5,22 @@ heading: Our products
 subheading: List of products
 ---
 ## Summary of Products
-
-- Power Cables Up to 1kV to 132kV
+- Power, Instrumentation & Control Cables
+- Fire Resistant & Flame Retardant Cables 
+- Power Distribution & Telecommunication Poles and Accessories 
+- Fibre Optic Cables, Termination Box and Accessories
 - Multicore Cables
-- Instrumentation Cables
-- Fire Resistant & Flame-Retardant Cables
+- Leaky Cables & Connectors
 - Solar Cables & Accessories
 - Thermocouple Extension Cables
 - Shipboard & Marine Cables
-- Data Communication Cables
-- Lightings Ex and Non Ex
-- Leaky Cables & Connectors
-- Fiber Optic Cables & Accessories
-- Cable Glands & Junction Boxes
-- Joints, Termination Kits and Accessories
-- Cable Tray, Ladders and Support Systems
+- Data Cables and Electronic Cables
+- Cabtire Cables (Flexible Cables for Crane)
+- Cable Glands, Cable Cleat, Joints, Termination Kits and Accessories
+- Cable Trays, Ladders & Support System
+- Lightings for Commercial, Industrial and Hazardous Application 
+- Transformers, Switchgears, & Low Voltage Components 
+- Lightning Protection 
 
 ## Power Cables
 
