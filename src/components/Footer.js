@@ -85,10 +85,10 @@ const Footer = () => {
                   Contact
                 </h3>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Phone: +603-5031-0271
+                  Phone: +603-5037-7886
                 </span>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Fax: +603-5031-0272
+                  Fax: +603-5037-7889
                 </span>
               </div>
             </div>
