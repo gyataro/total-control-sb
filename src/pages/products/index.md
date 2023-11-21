@@ -5,6 +5,7 @@ heading: Our products
 subheading: List of products
 ---
 ## Summary of Products
+- Outdoor & Industrial Lightning Fixtures
 - Power, Instrumentation & Control Cables
 - Fire Resistant & Flame Retardant Cables 
 - Power Distribution & Telecommunication Poles and Accessories 
@@ -21,6 +22,64 @@ subheading: List of products
 - Lightings for Commercial, Industrial and Hazardous Application 
 - Transformers, Switchgears, & Low Voltage Components 
 - Lightning Protection 
+
+## Lightning Fixtures
+<style>
+table {border-collapse:collapse; table-layout:fixed;}
+table td {width:100px; word-wrap:break-word;}
+</style>
+
+<table>
+    <tr>
+        <td><img src="../../img/venas-logo.png"></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+</table>
+
+<table>
+<thead>
+    <tr>
+    <th>Product</th>
+    <th>Picture</th>
+    <th>Ex Protection</th>
+    <th>Ex Rating</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td>Flood Light A</td>
+        <td><img src="../../img/venas-light-1.png"></td>
+        <td>Ex eb tb</td>
+        <td>Zone 1&2, 21&22  (IECEx & ATEX)</td>
+    </tr>
+    <tr>
+        <td>High Bay B</td>
+        <td><img src="../../img/venas-light-2.png"></td>
+        <td>Ex eb tb</td>
+        <td>Zone 1&2, 21&22  (IECEx & ATEX)</td>
+    </tr>
+    <tr>
+        <td>Bulkhead STA4</td>
+        <td><img src="../../img/venas-light-3.png"></td>
+        <td>Exe</td>
+        <td>Zone 1&2, 21&22  (IECEx & ATEX)</td>
+    </tr>
+    <tr>
+        <td>Batten R</td>
+        <td><img src="../../img/venas-light-4.png"></td>
+        <td>Ex db eb mb</td>
+        <td>Zone 1&2, 21&22  (IECEx & ATEX)</td>
+    </tr>
+    <tr>
+        <td>Street Lamp STA1&2</td>
+        <td><img src="../../img/venas-light-5.png"></td>
+        <td>Ex eb mb</td>
+        <td>Zone 1&2, 21&22  (IECEx & ATEX)</td>
+    </tr>
+</tbody>
+</table>
 
 ## Power Cables
 
