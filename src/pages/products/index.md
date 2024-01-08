@@ -41,15 +41,15 @@ table td {width:100px; word-wrap:break-word;}
 <tbody>
     <tr>
         <td>Sport Light N Series</td>
-        <td><img src="../../img/sport-light-1.png"></td>
+        <td><img src="../../img/sport-light-1.jpeg"></td>
     </tr>
     <tr>
         <td>Sport Light J Series</td>
-        <td><img src="../../img/sport-light-2.png"></td>
+        <td><img src="../../img/sport-light-2.jpeg"></td>
     </tr>
     <tr>
         <td>Sport Light M Series</td>
-        <td><img src="../../img/sport-light-3.png"></td>
+        <td><img src="../../img/sport-light-3.jpeg"></td>
     </tr>
 </tbody>
 </table>
