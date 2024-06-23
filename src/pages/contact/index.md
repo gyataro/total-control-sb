@@ -7,10 +7,9 @@ office:
   tagline: Our Office
   location: Avenue Crest
   address: |-
-    No. 11-23, Avenue Crest,\
-    Jalan Jubli Perak 22/1,\
-    Seksyen 22,\
-    40300 Shah Alam, Selangor.
+    24-A, Jalan Tiara 2, Tiara Square,\
+    Taman Perindustrian Sime UEP,\
+    47600 Subang Jaya, Selangor.
   phone: |-
     Email:\
       Mr. Lee Foo Kiong\
@@ -22,7 +21,6 @@ office:
       En. Zulhelmi Abd. Rahman\
       (zulhelmi@totalcontrolsb.com)\
       \
-    Phone: +603-5037-7886\
-    Fax: +603-5037-7889
+    Phone: +603-8011-1530
   image: /img/office-location-image.png
 ---
