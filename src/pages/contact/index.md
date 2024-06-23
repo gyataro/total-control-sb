@@ -22,4 +22,5 @@ office:
       (zulhelmi@totalcontrolsb.com)\
       \
     Phone: +603-8011-1530
+  image: none
 ---
