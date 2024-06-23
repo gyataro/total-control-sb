@@ -5,7 +5,7 @@ heading: Contact us
 subheading: Visit us in our offices or simply drop us a message
 office:
   tagline: Our Office
-  location: Avenue Crest
+  location: Tiara Square
   address: |-
     24-A, Jalan Tiara 2, Tiara Square,\
     Taman Perindustrian Sime UEP,\
@@ -22,5 +22,4 @@ office:
       (zulhelmi@totalcontrolsb.com)\
       \
     Phone: +603-8011-1530
-  image: /img/office-location-image.png
 ---
