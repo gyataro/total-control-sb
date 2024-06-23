@@ -38,14 +38,6 @@ export const TextImageSplit = ({ image, children, imageLeft = false }) => {
             {children}
           </div>
         </div>
-
-        <div className={`flex items-center justify-center w-full lg:w-1/2`}>
-          <Image
-            className="rounded-md h-full w-full object-cover"
-            image={image.image || image}
-            alt={image.alt || ""}
-          />
-        </div>
       </div>
     </Container>
   )
