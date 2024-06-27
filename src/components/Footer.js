@@ -22,10 +22,9 @@ const Footer = () => {
               </Link>
 
               <p className="max-w-md mt-2 text-gray-600 dark:text-gray-400">
-                No. 11-23, Avenue Crest,<br/>
-                Jalan Jubli Perak 22/1,<br/>
-                Seksyen 22,<br/>
-                40300 Shah Alam, Selangor.
+                24-A, Jalan Tiara 2, Tiara Square,<br/>
+                Taman Perindustrian Sime UEP,<br/>
+                47600 Subang Jaya, Selangor.
               </p>
             </div>
           </div>
@@ -85,10 +84,7 @@ const Footer = () => {
                   Contact
                 </h3>
                 <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Phone: +603-5037-7886
-                </span>
-                <span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-                  Fax: +603-5037-7889
+                  Phone: +603-8011-1530
                 </span>
               </div>
             </div>
