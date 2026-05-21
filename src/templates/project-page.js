@@ -3,9 +3,9 @@ import { graphql, Link } from "gatsby"
 import MyHelmet from "../components/MyHelmet"
 import { Container } from "../components/Sections"
 import {
-  ArrowNarrowLeftIcon,
-  ArrowNarrowRightIcon,
-} from "@heroicons/react/solid"
+  ArrowLongLeftIcon,
+  ArrowLongRightIcon,
+} from "@heroicons/react/24/solid"
 import ProjectPageTemplate from "./ProjectPageTemplate"
 
 const ProjectPage = ({ data, pageContext }) => {
@@ -15,7 +15,6 @@ const ProjectPage = ({ data, pageContext }) => {
 
   return (
     <>
-      <MyHelmet title={fm.title} description={project.excerpt} />
       <ProjectPageTemplate
         location={fm.location}
         title={fm.title}
@@ -30,10 +29,10 @@ const ProjectPage = ({ data, pageContext }) => {
           {previous && previous.frontmatter.templateKey === "project-page" ? (
             <Link to={previous.fields.slug} className="group">
               <div className="flex items-center gap-x-2 text-gray-500">
-                <ArrowNarrowLeftIcon className="w-5 h-5" />
+                <ArrowLongLeftIcon className="w-5 h-5" />
                 Next
               </div>
-              <p className="mt-4 uppercase text-green-600 font-bold text-xs tracking-wide">
+              <p className="mt-4 uppercase text-blue-700 font-bold text-xs tracking-wide">
                 {previous.frontmatter.location}
               </p>
               <h3 className="font-bold text-lg text-gray-700 group-hover:underline">
@@ -48,9 +47,9 @@ const ProjectPage = ({ data, pageContext }) => {
               <Link to={next.fields.slug} className="group sm:text-right">
                 <div className="flex items-center gap-x-2 text-gray-500 sm:justify-end">
                   Previous
-                  <ArrowNarrowRightIcon className="w-5 h-5" />
+                  <ArrowLongRightIcon className="w-5 h-5" />
                 </div>
-                <p className="mt-4 uppercase text-green-600 font-bold text-xs tracking-wide">
+                <p className="mt-4 uppercase text-blue-700 font-bold text-xs tracking-wide">
                   {next.frontmatter.location}
                 </p>
                 <h3 className="font-bold text-lg text-gray-700 group-hover:underline">
@@ -68,6 +67,11 @@ const ProjectPage = ({ data, pageContext }) => {
 }
 
 export default ProjectPage
+
+export function Head({ data }) {
+  const project = data.markdownRemark
+  return <MyHelmet title={project.frontmatter.title} description={project.excerpt} />
+}
 
 export const projectQuery = graphql`
   query ProjectPage($id: String!) {

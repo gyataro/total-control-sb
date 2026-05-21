@@ -6,28 +6,25 @@ import IndexPageTemplate from "./IndexPageTemplate"
 
 const IndexPage = ({ data }) => {
   const { frontmatter: fm } = data.markdownRemark
-
-  // featured posts
   const { edges: posts } = data.allMarkdownRemark
 
   return (
-    <>
-      <MyHelmet
-        title={fm.title}
-        description={fm.subheading}
-      />
-      <IndexPageTemplate
-        heading={fm.heading}
-        subheading={fm.subheading}
-        image={fm.image}
-        posts={posts}
-        about={fm.about}
-      />
-    </>
+    <IndexPageTemplate
+      heading={fm.heading}
+      subheading={fm.subheading}
+      image={fm.image}
+      posts={posts}
+      about={fm.about}
+    />
   )
 }
 
 export default IndexPage
+
+export function Head({ data }) {
+  const fm = data.markdownRemark.frontmatter
+  return <MyHelmet title={fm.title} description={fm.subheading} />
+}
 
 export const indexPageQuery = graphql`
   query IndexPage($id: String!) {
@@ -61,7 +58,7 @@ export const indexPageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: {
         frontmatter: {
           templateKey: { eq: "project-page" }

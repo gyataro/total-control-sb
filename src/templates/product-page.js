@@ -8,18 +8,20 @@ const ProductPage = ({ data }) => {
   const { frontmatter: fm } = post
 
   return (
-    <>
-      <MyHelmet title={fm.title} description={fm.subheading} />
-      <ProductPageTemplate
-        heading={fm.heading}
-        subheading={fm.subheading}
-        html={post.html}
-      />
-    </>
+    <ProductPageTemplate
+      heading={fm.heading}
+      subheading={fm.subheading}
+      html={post.html}
+    />
   )
 }
 
 export default ProductPage
+
+export function Head({ data }) {
+  const fm = data.markdownRemark.frontmatter
+  return <MyHelmet title={fm.title} description={fm.subheading} />
+}
 
 export const productPageQuery = graphql`
   query ProductPage($id: String!) {

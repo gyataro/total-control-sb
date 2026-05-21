@@ -8,18 +8,20 @@ const ProjectsPage = ({ data }) => {
   const { edges: posts } = data.allMarkdownRemark
 
   return (
-    <>
-    <MyHelmet title={fm.title} description={fm.subheading} />
-      <ProjectsPageTemplate
-        heading={fm.heading}
-        subheading={fm.subheading}
-        posts={posts}
-      />
-    </>
+    <ProjectsPageTemplate
+      heading={fm.heading}
+      subheading={fm.subheading}
+      posts={posts}
+    />
   )
 }
 
 export default ProjectsPage
+
+export function Head({ data }) {
+  const fm = data.markdownRemark.frontmatter
+  return <MyHelmet title={fm.title} description={fm.subheading} />
+}
 
 export const projectsPageQuery = graphql`
   query ProjectsPage($id: String!) {
@@ -32,7 +34,7 @@ export const projectsPageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] }
+      sort: { frontmatter: { date: DESC } }
       filter: { frontmatter: { templateKey: { eq: "project-page" } } }
     ) {
       edges {
@@ -66,4 +68,3 @@ export const projectsPageQuery = graphql`
     }
   }
 `
-
