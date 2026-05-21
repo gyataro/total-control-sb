@@ -8,14 +8,8 @@ module.exports = {
       "TCSB specializes into industrial cables, oil & gas type cables, and telecommunication cables, together with accessories. TCSB offers services in ICT Network Infrastructures, ELV Engineering Services, Smart Surveillance, Enterprise Wifi, Smart Meeting Room, Digital Signage, Fiber Optic Solutions and lastly, IOT",
     siteUrl: "https://agitated-brattain-089b45.netlify.app",
   },
+  trailingSlash: "always",
   plugins: [
-    {
-      resolve: `gatsby-plugin-pnpm`,
-      options: {
-        projectPath: `${__dirname}`, // use parent directory as project root
-        strict: true
-      }
-    },
     {
       // keep as first gatsby-source-filesystem plugin for gatsby image support
       resolve: "gatsby-source-filesystem",
@@ -92,17 +86,6 @@ module.exports = {
         theme_color: `#1E40AF`,
         display: `standalone`,
         icon: `src/img/favicon.png`,
-      },
-    },
-    "gatsby-transformer-remark-frontmatter",
-    {
-      resolve: `gatsby-plugin-netlify-cms`,
-      options: {
-        /**
-         * One convention is to place your Netlify CMS customization code in a
-         * `src/cms` directory.
-         */
-        modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
     "gatsby-plugin-postcss",

@@ -10,7 +10,7 @@ exports.createPages = ({ graphql, actions }) => {
         `
           query {
             allMarkdownRemark(
-              sort: { order: DESC, fields: [frontmatter___date] }
+              sort: { frontmatter: { date: DESC } }
             ) {
               edges {
                 node {
@@ -88,7 +88,7 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
 }
 
 exports.createSchemaCustomization = ({ actions }) => {
-  const {createTypes} = actions
+  const { createTypes } = actions
   const typeDefs = `
     type MarkdownRemark implements Node {
       frontmatter: Frontmatter
@@ -99,8 +99,10 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
 
     type Office {
-      address: String @md
-      phone: String @md
+      tagline: String
+      location: String
+      address: String
+      phone: String
     }
   `
   createTypes(typeDefs)
