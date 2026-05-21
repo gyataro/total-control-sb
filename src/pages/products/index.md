@@ -5,6 +5,7 @@ heading: Our products
 subheading: List of products
 ---
 ## Summary of Products
+- Schneider Electric - Protection Relay
 - Outdoor & Industrial Lightning Fixtures
 - Power, Instrumentation & Control Cables
 - Fire Resistant & Flame Retardant Cables 
