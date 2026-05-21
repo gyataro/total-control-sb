@@ -1,15 +1,2 @@
-import CMS from 'netlify-cms-app'
-
-import IndexPagePreview from './preview-templates/IndexPagePreview'
-import ProjectsPagePreview from './preview-templates/ProjectsPagePreview'
-import ProjectPagePreview from './preview-templates/ProjectPagePreview'
-import AboutPagePreview from './preview-templates/AboutPagePreview'
-import ContactPagePreview from './preview-templates/ContactPagePreview'
-import ProductPagePreview from './preview-templates/ProductPagePreview'
-
-CMS.registerPreviewTemplate('index', IndexPagePreview)
-CMS.registerPreviewTemplate('projects-index', ProjectsPagePreview)
-CMS.registerPreviewTemplate('projects', ProjectPagePreview)
-CMS.registerPreviewTemplate('about', AboutPagePreview)
-CMS.registerPreviewTemplate('contact', ContactPagePreview)
-CMS.registerPreviewTemplate('product', ProductPagePreview)
+// Decap CMS is loaded via CDN in static/admin/index.html
+// This file is kept for reference only
